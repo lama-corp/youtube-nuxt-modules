@@ -15,7 +15,7 @@ export default {
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
     // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss',
+    '@nuxtjs/tailwindcss'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -36,7 +36,7 @@ export default {
     '@nuxtjs/i18n',
     '~/modules/auth',
     '~/modules/members',
-    '~/modules/blog',
+    '~/modules/blog'
     // function (moduleOptions) {
     //   console.log('Module en tant que fonction dans nuxt.config.js !')
     // },
@@ -48,33 +48,18 @@ export default {
     // '~/modules/methods/add-template',
   ],
 
-  // extendPlugins(plugins) {
-  //   // console.log(plugins)
-  //   // https://nuxtjs.org/docs/configuration-glossary/configuration-extend-plugins/
-  //   const pluginIndex = plugins.findIndex((item) => {
-  //     return item === '~/plugins/lodash'
-  //   })
-  //   const shouldBeFirstPlugin = plugins[pluginIndex]
-  //
-  //   plugins.splice(pluginIndex, 1)
-  //   plugins.unshift(shouldBeFirstPlugin)
-  //   // console.log(plugins)
-  //
-  //   return plugins
-  // },
-
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    transpile: ['lodash-es'],
+    transpile: ['lodash-es']
   },
 
   activate: {
-    lodash: true,
+    lodash: true
   },
 
   // my-module options:
   iAmAnOptionWithARandomName: { randomValue2: true },
 
   // howareyou
-  howareyou: 'fine',
+  howareyou: 'fine'
 }
