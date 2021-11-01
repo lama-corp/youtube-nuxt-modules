@@ -1,7 +1,7 @@
 export default function (moduleOptions) {
   // Global page headers: https://go.nuxtjs.dev/config-head
   this.options.head = {
-    title: 'Youtube Nuxt Modules',
+    title: moduleOptions.title,
     htmlAttrs: {
       lang: 'en',
     },
@@ -13,4 +13,12 @@ export default function (moduleOptions) {
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   }
+
+  this.options.css.push('~/assets/main.css')
+
+  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
+  this.options.plugins.push('~/plugins/lodash')
+
+  // Auto import components: https://go.nuxtjs.dev/config-components
+  this.options.components = true
 }

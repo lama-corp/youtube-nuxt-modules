@@ -6,7 +6,7 @@ export default (context, inject) => {
   console.log(context.store.state.test2)
   console.log(context.store.state.users?.test)
 
-  inject('lodash', {
+  inject('utils', {
     merge,
   })
   console.log('lodashPlugin')

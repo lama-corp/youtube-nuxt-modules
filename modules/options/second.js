@@ -2,7 +2,7 @@ export default function (moduleOptions) {
   // get all options for the module
   const options = {
     ...moduleOptions,
-    ...this.options.iAmAnOptionWithARandomName,
+    ...this.options.optionsFirst,
   }
   console.log('Module options/second.js ! Voici mes options:', options)
 

@@ -990,6 +990,14 @@
     methods "^1.1.2"
     path-to-regexp "^6.1.0"
 
+"@lihbr/utils-nuxt.head@^0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@lihbr/utils-nuxt.head/-/utils-nuxt.head-0.2.2.tgz#1bf8b31ab55a34af52281974a5fb5571f0affe0f"
+  integrity sha512-eiDhPSdsF58MCT5HwflB0ARbDySAPQ0KeFxE1NtOoT92Ljq7j+VGGQ8PuciMV97o2GfNbV1A4sXrQoQFRU4fvA==
+  dependencies:
+    consola "^2.15.3"
+    lodash "^4.17.21"
+
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"

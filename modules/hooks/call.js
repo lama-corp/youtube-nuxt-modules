@@ -8,7 +8,7 @@ export default function (moduleOptions) {
       // if (applySayHowYoureFeeling) {
       //   _nuxt.callHook('hello:howareyou', this)
       // }
-      _nuxt.callHook('hello:howareyou', this)
+      _nuxt.callHook('hello:howAreYou', this)
       sayHowYoureFeeling()
     }, 5000)
   }

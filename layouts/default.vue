@@ -24,6 +24,7 @@ export default {
     return {
       links: [
         { name: 'index', label: 'Home' },
+        { name: 'about', label: 'About' },
         { name: 'auth-users', label: 'Users' },
         { name: 'call-module-component', label: 'Call module component' },
         { name: 'test-blog-module', label: 'Call blog module' },
