@@ -1,6 +1,6 @@
 <template>
   <div>
-    Ceci est un composant présent et chargé au travers de mon module
+    Ceci est un composant présent et chargé au travers de mon module hooks/examples
   </div>
 </template>
 

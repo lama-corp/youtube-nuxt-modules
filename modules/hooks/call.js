@@ -1,6 +1,7 @@
 export default function (moduleOptions) {
   console.log('In module')
   // eslint-disable-next-line require-await
+  // let applySayHowYoureFeeling = true
 
   const _nuxt = this.nuxt
   const sayHowYoureFeeling = function () {
@@ -8,7 +9,8 @@ export default function (moduleOptions) {
       // if (applySayHowYoureFeeling) {
       //   _nuxt.callHook('hello:howareyou', this)
       // }
-      _nuxt.callHook('hello:howAreYou', this)
+      const arg = 12
+      _nuxt.callHook('hello:howAreYou', arg, 234)
       sayHowYoureFeeling()
     }, 5000)
   }
@@ -21,19 +23,5 @@ export default function (moduleOptions) {
   // this.nuxt.hook('build:done', (nuxt) => {
   //   console.log('Build done')
   //   applySayHowYoureFeeling = true
-  // })
-  // let applySayHowYoureFeeling = true
-
-  // const beforeBuildHook = (nuxt) => {
-  //   console.log('Starting build')
-  //   applySayHowYoureFeeling = false
-  // }
-  // const buildDoneHook = (nuxt) => {
-  //   console.log('Build done')
-  //   applySayHowYoureFeeling = true
-  // }
-  // this.nuxt.addHooks({
-  //   'build:before': beforeBuildHook,
-  //   'build:done': buildDoneHook,
   // })
 }
